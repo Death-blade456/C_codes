@@ -1,0 +1,25 @@
+ #include<stdio.h>
+
+ int main() 
+{
+    int marks;
+    printf("enter obtained marks");
+scanf("%d", &marks);
+if(marks>75){
+printf("First Class");
+}
+else if(marks>65){
+printf("Second  Class");
+}
+
+else if(marks>55){
+printf("Thrid  Class");
+}
+else  {
+printf(" Below 35 is Fail");
+}
+
+return 0;
+
+}
+
